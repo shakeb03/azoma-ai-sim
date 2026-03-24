@@ -116,7 +116,7 @@ export default function AIResponseCard({ response }: Props) {
                       {v.error ? "Error" : v.brand_mentioned ? "Mentioned" : "Not mentioned"}
                     </span>
                   </div>
-                  <p className="text-xs text-gray-400 italic mb-2">"{v.prompt}"</p>
+                  <p className="text-xs text-gray-400 italic mb-2">&quot;{v.prompt}&quot;</p>
                   {v.error ? (
                     <p className="text-xs text-red-500">{v.error}</p>
                   ) : (

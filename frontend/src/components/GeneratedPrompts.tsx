@@ -41,7 +41,7 @@ export default function GeneratedPrompts({ prompts }: Props) {
               <span className="shrink-0 w-5 h-5 rounded-full bg-blue-100 text-blue-700 text-xs font-bold flex items-center justify-center mt-0.5">
                 {i + 1}
               </span>
-              <p className="text-sm text-gray-700 italic">"{p}"</p>
+              <p className="text-sm text-gray-700 italic">&quot;{p}&quot;</p>
             </li>
           ))}
         </ol>
